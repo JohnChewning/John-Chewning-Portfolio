@@ -3,61 +3,98 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>John Chewning Portfolio</title>
 </head>
 
 <body>
     <header class="header">
         <h1>JohnChewning</h1>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#About-Me">About Me</a></li>
-            <li><a href="#Work">Work</a></li>
-            <li><a href="#Contact-Me">Contact Me</a></li>
-            <li><a href="#Resume">Resume</a></li>
-        </ul>
-    </nav>
-</header>
+    <main>
+        <section class="content">
 
-<main>
-    <figure class="hero"></figure>
-    <section class="content">
-        <article id= "About-Me" class="About-Me">
-            <img src="./assets/images/search-engine-optimization.jpg"
-                alt="A picture of a me, maybe" class="float-left" />
-            <h2>About Me</h2>
-            <p>
-                These are things about me.
-            </p>
-        </article>
-        <article id="Work" class="Work">
-            <h2>Work</h2>
-            <p>
-                placeholder text.
-            </p>
+            <article id="about-me" class="about-me">
+                <img src="./assets/images/profile pic.jpg" alt="A profile picture of Johnathan Chewning"
+                    class="float-left" />
+                <h2>About Me</h2>
+                <p>
+                    My name is Johnathan Chewning. As an aspiring developer, I hope to build a portfolio that showcases
+                    my strengths using the knowledge that I have gained during my time in the boot camp. As I continue
+                    to develop my skills and complete more projects, my portfolio will grow and be a useful tool for
+                    hiring companies to see who I am and what I can do. I am very excited to continue my work and expand
+                    my knowledge of coding.
+                </p>
+            </article>
 
-        <article id="Contact-Me" class="Contact-Me">
-            <img src="./assets/images/social-media-marketing.jpg"
-                alt="An image"
-                class="float-left" />
-            <h2>Contact Me</h2>
-            <p>
-                placeholder text
-            </p>
-        </article>
-    </section>
+            <article id="work" class="work">
+                <h2>Work</h2>
+                <div class="row justify-center">
+                    <a href="https://johnchewning.github.io/Horiseon-Homepage/">
+                        <project1 class="project">
+                            <h3 class="project-header">My First Project</h3>
+                            <img id="project1" src="./assets/images/digital-marketing-meeting.jpg"
+                                alt="a picture of a marketing meeting">
+                            <p>Horiseon Homepage</p>
+                        </project1>
+                    </a>
+                    <project2 class="project">
+                        <h3 class="project-header">My Second Project</h3>
+                        <img src="./assets/images/elementor-placeholder-image.webp" alt="A placeholder image">
+                        <p>Project #2</p>
+                    </project2>
+                    <project3 class="project">
+                        <h3 class="project-header">My Third Project</h3>
+                        <img src="./assets/images/elementor-placeholder-image.webp" alt="A placeholder image">
+                        <p>Project #3</p>
+                    </project3>
+                    <project4 class="project">
+                        <h3 class="project-header">My Fourth Project</h3>
+                        <img src="./assets/images/elementor-placeholder-image.webp" alt="A placeholder image">
+                        <p>Project #4</p>
+                    </project4>
+                    <project5 class="project">
+                        <h3 class="project-header">My Fifth Project</h3>
+                        <img src="./assets/images/elementor-placeholder-image.webp" alt="A placeholder image">
+                        <p>Project #5</p>
+                    </project5>
+                    <project6 class="project">
+                        <h3 class="project-header">My Sixth Project</h3>
+                        <img src="./assets/images/elementor-placeholder-image.webp" alt="A placeholder image">
+                        <p>Project #6</p>
+                    </project6>
+                </div>
+            </article>
 
-    
-</main>
-<footer class="footer">
-    <h2>Johnathan Michael Chewning</h2>
-    <p>
-        &copy; 2023 Yung Chew Inc.
-    </p>
-</footer>
+            <article id="contact-me" class="contact-me">
+                <h2>Contact Me</h2>
+                <h3>
+                    GitHub: <a href="https://github.com/JohnChewning">GitHub.com/JohnChewning</a>
+                    E-mail: <a href="https://Johnathanchewning@gmail.com">Johnathanchewning@gmail.com</a>
+                    Phone: (313)222-2222
+                </h3>
+            </article>
+
+        </section>
+
+
+    </main>
+    <footer class="footer">
+        <h2>Johnathan Michael Chewning</h2>
+        <p>
+            &copy; 2023 MSU Boot Camp
+        </p>
+    </footer>
 </body>
 
 </html>
